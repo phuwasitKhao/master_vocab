@@ -1,0 +1,128 @@
+{
+    "toeic": [
+      {
+        "id": "t1",
+        "word": "accommodate",
+        "definition": "รองรับ, จัดหาที่พักให้",
+        "example": "The hotel can accommodate up to 500 guests.",
+        "partOfSpeech": "verb",
+        "difficulty": 3
+      },
+      {
+        "id": "t2",
+        "word": "initiative",
+        "definition": "ความคิดริเริ่ม, การเริ่มต้นทำก่อน",
+        "example": "The manager showed great initiative in solving the problem.",
+        "partOfSpeech": "noun",
+        "difficulty": 3
+      },
+      {
+        "id": "t3",
+        "word": "negotiate",
+        "definition": "เจรจาต่อรอง",
+        "example": "They will negotiate the terms of the contract next week.",
+        "partOfSpeech": "verb",
+        "difficulty": 2
+      },
+      {
+        "id": "t4",
+        "word": "invoice",
+        "definition": "ใบแจ้งหนี้, ใบกำกับสินค้า",
+        "example": "The company sent an invoice for the services rendered last month.",
+        "partOfSpeech": "noun",
+        "difficulty": 2
+      },
+      {
+        "id": "t5",
+        "word": "procurement",
+        "definition": "การจัดซื้อจัดจ้าง",
+        "example": "He works in the procurement department and deals with suppliers.",
+        "partOfSpeech": "noun",
+        "difficulty": 4
+      }
+    ],
+    "ielts": [
+      {
+        "id": "i1",
+        "word": "albeit",
+        "definition": "แม้ว่า, ถึงแม้ว่า",
+        "example": "The project was completed successfully, albeit a bit behind schedule.",
+        "partOfSpeech": "conjunction",
+        "difficulty": 4
+      },
+      {
+        "id": "i2",
+        "word": "meticulous",
+        "definition": "พิถีพิถัน, ละเอียดรอบคอบ",
+        "example": "The research paper was written with meticulous attention to detail.",
+        "partOfSpeech": "adjective",
+        "difficulty": 4
+      },
+      {
+        "id": "i3",
+        "word": "ubiquitous",
+        "definition": "มีอยู่ทั่วไป, พบได้ทุกหนทุกแห่ง",
+        "example": "Mobile phones have become ubiquitous in modern society.",
+        "partOfSpeech": "adjective",
+        "difficulty": 5
+      },
+      {
+        "id": "i4",
+        "word": "controversial",
+        "definition": "ซึ่งก่อให้เกิดความขัดแย้ง, เป็นที่ถกเถียง",
+        "example": "The new policy has been very controversial among citizens.",
+        "partOfSpeech": "adjective",
+        "difficulty": 3
+      },
+      {
+        "id": "i5",
+        "word": "phenomenon",
+        "definition": "ปรากฏการณ์",
+        "example": "Scientists are studying the phenomenon of global warming.",
+        "partOfSpeech": "noun",
+        "difficulty": 3
+      }
+    ],
+    "both": [
+      {
+        "id": "b1",
+        "word": "ambiguous",
+        "definition": "คลุมเครือ, กำกวม",
+        "example": "The instructions were ambiguous and confused many people.",
+        "partOfSpeech": "adjective",
+        "difficulty": 4
+      },
+      {
+        "id": "b2",
+        "word": "fluctuate",
+        "definition": "ผันผวน, ขึ้นๆลงๆ",
+        "example": "Stock prices tend to fluctuate during times of economic uncertainty.",
+        "partOfSpeech": "verb",
+        "difficulty": 3
+      },
+      {
+        "id": "b3",
+        "word": "diligent",
+        "definition": "ขยันขันแข็ง, มานะพยายาม",
+        "example": "She is a diligent student who always completes her assignments on time.",
+        "partOfSpeech": "adjective",
+        "difficulty": 3
+      },
+      {
+        "id": "b4",
+        "word": "adequate",
+        "definition": "เพียงพอ, พอเหมาะ",
+        "example": "The food supplies were adequate for the journey.",
+        "partOfSpeech": "adjective",
+        "difficulty": 2
+      },
+      {
+        "id": "b5",
+        "word": "efficient",
+        "definition": "มีประสิทธิภาพ",
+        "example": "The new system is more efficient and saves time and resources.",
+        "partOfSpeech": "adjective",
+        "difficulty": 2
+      }
+    ]
+  }

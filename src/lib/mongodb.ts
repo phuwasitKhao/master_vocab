@@ -1,22 +1,39 @@
-// lib/mongodb.ts
-import { MongoClient } from 'mongodb';
+// // src/lib/mongodb.ts
+// import mongoose from 'mongoose';
 
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/vocab-game';
-const MONGODB_DB = process.env.MONGODB_DB || 'vocab-game';
+// const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/vocab-game';
 
-let cachedClient: MongoClient | null = null;
-let cachedDb: any = null;
+// if (!MONGODB_URI) {
+//   throw new Error('Please define the MONGODB_URI environment variable');
+// }
 
-export async function connectToDatabase() {
-  if (cachedClient && cachedDb) {
-    return { client: cachedClient, db: cachedDb };
-  }
+// /**
+//  * Global is used here to maintain a cached connection across hot reloads
+//  * in development. This prevents connections growing exponentially
+//  * during API Route usage.
+//  */
+// let cached = global.mongoose;
 
-  const client = await MongoClient.connect(MONGODB_URI);
-  const db = client.db(MONGODB_DB);
+// if (!cached) {
+//   cached = global.mongoose = { conn: null, promise: null };
+// }
 
-  cachedClient = client;
-  cachedDb = db;
+// async function dbConnect() {
+//   if (cached.conn) {
+//     return cached.conn;
+//   }
 
-  return { client, db };
-}
+//   if (!cached.promise) {
+//     const opts = {
+//       bufferCommands: false,
+//     };
+
+//     cached.promise = mongoose.connect(MONGODB_URI, opts).then((mongoose) => {
+//       return mongoose;
+//     });
+//   }
+//   cached.conn = await cached.promise;
+//   return cached.conn;
+// }
+
+// export default dbConnect;

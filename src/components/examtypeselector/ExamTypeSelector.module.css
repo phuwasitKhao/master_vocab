@@ -1,0 +1,46 @@
+/* styles/ExamTypeSelector.module.css */
+.container {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  
+  .label {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .button {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .button:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .button.active {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+  }
+  
+  @media (max-width: 640px) {
+    .buttonGroup {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  }

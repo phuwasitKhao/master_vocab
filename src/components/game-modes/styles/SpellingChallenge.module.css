@@ -1,0 +1,95 @@
+/* styles/SpellingChallenge.module.css */
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .definitionBox {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .definitionBox h3 {
+    font-size: 1.3rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0.5rem;
+  }
+  
+  .definitionBox p {
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+  }
+  
+  .spellingForm {
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+  }
+  
+  .spellingInput {
+    flex: 1;
+    padding: 1rem;
+    font-size: 1.1rem;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    outline: none;
+    transition: all 0.2s;
+  }
+  
+  .spellingInput:focus {
+    border-color: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.15);
+  }
+  
+  .spellingInput::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .submitButton {
+    padding: 0 2rem;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .submitButton:hover {
+    background: linear-gradient(90deg, #00b4e6, #0067e6);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .definitionBox {
+      padding: 1.5rem;
+    }
+    
+    .spellingForm {
+      flex-direction: column;
+    }
+    
+    .spellingInput, .submitButton {
+      width: 100%;
+    }
+    
+    .submitButton {
+      padding: 1rem;
+    }
+  }
